@@ -103,3 +103,59 @@ ul li a{
 .hero-left-btn-parent{
     margin-top: 12px;
 }
+
+/* about section */
+
+.about-parent{
+    background-color: #efd4c2;
+    margin: 50px auto;
+    /* but second value auto as per video */
+    border-radius: 7px;
+    padding: 75px;
+    text-align: center;
+}
+
+.xxx{
+    margin: 20px auto;
+}
+
+.about-box-parent{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.about-box-parent .box{
+    background-color: rgb(224, 235, 235);
+    padding: 4px 4px;
+    border-radius: 7px;
+}
+
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+
+.what-i-do-card-container{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid #fd6e0f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.what-i-do-card-container .what-i-do-card h2{
+    margin: 10px auto;
+}
+
+.what-i-do-card-container .what-i-do-card p{
+    color: #757575;
+    font-size: 17px;
+}
+
