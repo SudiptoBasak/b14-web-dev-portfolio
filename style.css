@@ -159,3 +159,81 @@ ul li a{
     font-size: 17px;
 }
 
+/* my amazing works section start */
+.my-amazing-parent{
+    text-align: center;
+}
+
+.my-amazing-parent h2{
+    margin-bottom: 30px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "four two six "
+    "four five six"
+}
+ .gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+
+ .box1{
+    grid-area: one;
+ }
+ .box2{
+    grid-area: two;
+ }
+ .box3{
+    grid-area: three;
+ }
+ .box4{
+    grid-area: four;
+ }
+ .box5{
+    grid-area: five;
+ }
+ .box6{
+    grid-area: six;
+ }
+
+
+ /* footer section */
+
+ footer{
+    text-align: center;
+    margin-top: 70px !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #ede2da;
+    margin-bottom: 50px !important;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+ }
+
+ footer form{
+    padding: 20px;
+ }
+
+ .footer-left p{
+     margin: 10px 0;
+ }
+
+ footer form input, footer form button{
+    border:none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+ }
+
+ 
